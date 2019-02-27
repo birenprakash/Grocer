@@ -14,8 +14,7 @@ const DrawerStack = createDrawerNavigator(
   },
 
   {
-    style: { zIndex: 1 },
-    drawerWidth: Dimensions.get("screen").width / 1.1,
+    drawerWidth: Dimensions.get("screen").width / 1.2,
     initialRouteName: "Stack"
   }
 );

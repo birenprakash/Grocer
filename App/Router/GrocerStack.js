@@ -32,7 +32,7 @@ catagories.navigationOptions = ({ navigation }) => {
     headerLeft: (
       <TouchableOpacity
         style={styles.headerButtons}
-        onPress={() => alert("Todo: Drawer open / close")}
+        onPress={() => navigation.toggleDrawer()}
       >
         <Icon name="bars" size={20} color="#000" />
       </TouchableOpacity>
